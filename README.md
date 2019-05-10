@@ -1,2 +1,5 @@
 # TransitionAnimationProject
 自定义转场动画
+
+自定义转场动画，创建跳转和返回的两个动画类并分别实现UIViewControllerAnimatedTransitioning协议，具体的动画写在animateTransition()方法里，在fromView（也就是present方法的view）中实现UIViewControllerTransitioningDelegate协议。
+手势交互，在toView中添加pan手势，创建UIPercentDrivenInteractiveTransition属性并实现手势百分比更新
